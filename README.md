@@ -6,7 +6,7 @@ Supported HTTP Verbs: POST, GET, DELETE.
 # Routes
 
 | Route | Verb | Description | Possible Query/Body Parameters |
-| ------------- | ------------- | ------------- |
+| ------------- | ------------- | ------------- | ------------- |
 | '/planets'  | GET  | Get the list of all planets.  | Query: pageNumber, pageSize, name, id  |
 | '/planets'  | POST  | Create a new planet. Body should contain a JSON with properties.  | Body: name, climate, groundType  |
 | '/planets/:id'  | GET  | Get specific planet by its id.  | -- |
